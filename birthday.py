@@ -6,7 +6,7 @@ today = date.today()
 name = input("Enter the name of Client...")
 
 # Clent's Birth Date
-date_of_birth = date(2000, 12, 31)
+date_of_birth = date(2000, 1, 1)
 
 # Match the month and date of Cient's birthdate with current date...
 birthday = date(today.year, date_of_birth.month, date_of_birth.day)
